@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- l<inking html to css -->
+        <link rel="stylesheet" href="./main.css">
+        <!-- linking html to font-awesome for the icons  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+         crossorigin="anonymous" 
+         referrerpolicy="no-referrer" />
+        <title>Random Quote Generator Project</title>
+        <!-- linking html to js -->
+        <script src="src/script.js"></script>
+        
+    </head>
+    <body>
+      <!-- section one: heading of the page -->
+      <section id="Heading-1">
+        <h1>Random Quote Generator</h1>
+      </section>
+      
+      <!-- section two -->
+        <section id="menu">
+            <nav>
+                <p id="sign-up-nav-bar">Sign Up</p>
+                <p id="leave-feedback">Leave FeedBack</p>
+                <a href="#listFavourite"><p id="favourite-quote">Favourite Quotes</p></a>
+                <form id="search-author">
+                    <input type="search" placeholder="search favourite quote by author" id="searchinput">
+                    <button type="submit" id="search-button">Search</button>
+                </form>
+            </nav>
+          </section> 
+    
+      <!-- section three: all about the sign up bar -->
+          <section id="signUp">
+            <form id="user-details">
+                <h4 id="sign-up">Sign Up</h4>
+                <input type="text" placeholder="User Name" class="sign-Up" id="name"></input>          
+                <br>
+                <input type="text" placeholder="Enter Email" id="email"></input>
+                <input type="password" placeholder="Create Password" class="signUp" id="pass"></input>         
+                <br>
+                <button type="submit" id="sign-up-button" onclick="submitAlert()">Sign Up</button>
+                </form>     
+        </section>
+          
+      <!-- section four: all about feedback form -->
+        <section id="feedback-form">
+            <h4 id="feedbackHeader">Feedback Form</h4>
+            <form id="feedBack">
+              <input type="text" placeholder="Your feedback" id="feedbackinput">
+              <br>
+              <input type="text" placeholder="Your name" id="feedbackname">
+              <br>
+              <button type="submit" id="submit-feedback">Submit</button>
+            </form>
+          </section>
+          
+          <div id="search-quote">
+    
+          </div>  
+    
+      <!-- section five: all about the main page  -->
+        
+          <section id="Main-page">
+            
+            <div class="wrapper">
+                <header>Quote To Please Your Heart</header>
+                <div class="content">
+                <div class="quote-area">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p class="quote">No man was ever wise by chance</p>
+                    <i class="fa-solid fa-quote-right"></i> 
+                </div>
+                <div class="author">
+                <span>__</span>
+                <span class="name">Thomas Edison</span>
+            </div>
+          </div>
+            <div class="buttons">
+             <div class="features">
+              <ul> 
+                 <li id="Favourite"><i class="fa-solid fa-star"></i></li>
+                 <li class="copy"><i class="fa-regular fa-copy"></i></li>
+                 <li class="like"><i class="fa-solid fa-heart"></i></li>
+               
+              </ul>
+              <button id="quote"> New Quote </button>
+            </div>
+          </div>
+          </div>
+         </section>
+    
+    
+        <!-- section six: where the favourite quotes are displayed -->
+         <section id="Fav-quotes">
+          <h2>Your Favourite Quotes :)</h2>
+            <div id="listFavourite"></div>
+         </section>
+         
+    </body>
+    </html>
