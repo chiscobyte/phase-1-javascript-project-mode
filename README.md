@@ -1,76 +1,62 @@
-Random Quote Generator
-This project is about Random Quote Generator, it generates random quotes. THis project uses JavaScript language.
+Phase-1-project-Brewers-Finders
+Moringa School phase-1-javascript-project-mode Brewers Finders is a web-app to find your favourite breweries. It utilizes data from open brewery DB API
 
-You can use this link to access the deployed site
+    https://api.openbrewerydb.org/
+Description
+The goal of Brewers finders online web-app is to maintain a digital record and provide access to your favorite breweries and their information on brewery-related data. On launch the web-app is expected to provide a user experience that allows:
 
-https://chiscobyte.github.io/phase-1-javascript-project-mode/
-There are two parts of this page
+LogIn and Authentication with dummy data
 
-** Menu section **
+Access to major breweries
 
-There several nav bars;
+Provides information on breweries
 
-Sign up bar where you can sign up to the page.
-A feedback form where you can give feedback of how the page is.
-A favourites quotes bar where after you add some quotes to your favourite quotes and you'd like to view them, you click on it and it will directly take you to those quotes.
-There is a search bar where you can search a specific quote that is in your favourite quotes by entering the author's name and clicking search, it will highlight that quote and the authors name.
-** Body section **
+Save their preferred breweries.
 
-In the body section there is a quote area where the quote is and the author.
+Search for breweries in the database
 
-There are three icons just beneath the author's name;
+Built With
+HTML
+CSS
+JavaScript
+Bootstrap
+Getting Started
+To get started you need to do the following:
 
-Favourite icon;
+Alternative One
+Use Github pages to check out website and perform operations from there.The link is:
 
-When you like a quote and you'd like to add it in your favourites, you click this icon, it changes the color to red and that quote will automatically be displayed under "your favourite quotes :)" heading.
-Copy icon;
-
-When you click it, it will copy the quote to your clipboard.
-Like icon;
-
-When you like the quote that is displayed, you can click it and it will change color to red.
-There is a button, new quote where when you click, it it will display a different quote from the previous one.As the page loads a new quote, its text content is "loading quote...".
-
-There is a heading Your Favourite quotes :). It displays your favourite quotes and the author's name.
-
-REQUIREMENTS
-Prerequisites
-In order for you to use the content on this repo ensure you have the following:
-
-A computer that runs on either of the following; (Linux, Mac OS and Windows)
-nodejs 9.0+
-node v14.17.4 and above
-npm 6.14.14 and above
-Vue 2.6.11
-Status:
-
-maintained, and is currently in development
-Version:
-
-v0.1.0
-v0.1.0
-Setup instructions
-To use this repository on your machine requires some simple steps:
+    https://Chiscobyte.github.io/phase-1-javascript-project-mode/
+Alternative Two
+Installation
+To use this repo on your machine requires some simple steps
 
 Open a terminal / command line interface on your computer
-Clone the repo by using the following to create a copy on your local machine:
 
-git clone git@github.com:ismahaneyy/phase-1-javascript-project-mode.git
+Clone the repo by using the following:
+
+  git@github.com:Chiscobyte/phase-1-javascript-project-mode.git
+Be patient as it creates a copy on your local machine for you.
+
 Change directory to the repo folder:
 
-cd phase-1-javascript-project-mode
-Open it in Visual Studio Code
+  cd phase-1-javascript-project-mode
+Install javascript dependencies
 
-code .
-OR :
+    npm install
+Running the application
+To open site in browser run while inside the cloned repo:
 
-You can use this link to access the deployed site https://chiscobyte.github.io/phase-1-javascript-project-mode/
+    explorer.exe index.html
+Run program from the index.html file in browser.
 
-Author:
-   * **Enock Chisiwa** - *Initial work* - [chiscobyte](https://github.com/chiscobyte)
+This is what the app looks like :
 
-Usage
------
 
-## License
-This project is licensed under the MIT License
+Author
+@Chiscobyte
+License
+Released under the following license:
+
+MIT
+Copyright © 2022, Chiscobyte
