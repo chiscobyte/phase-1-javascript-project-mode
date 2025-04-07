@@ -77,7 +77,7 @@ function breweryAvailable() {
                     searchLis.forEach(searchLi => {
                         favLis.forEach(favLiEach => {
                             if (searchLi.querySelector('i').innerText === favLiEach.querySelector('i').innerText) {
-                                searchLi.querySelector('img').src = "https://sammy-ck.github.io/phase-1-project/images/liked.png"
+                                searchLi.querySelector('img').src = "https://Chiscobyte.github.io/phase-1-project/images/liked.png"
                             } else {
 
                             }
@@ -183,7 +183,7 @@ function breweryToPage(brewery, currentUl) {
 <b>${brewery.brewery_type}</b>
 </p>
 <p><b>Address:</b> <i>${brewery.street} ${brewery.city} ${brewery.state}</i></p>
-<img class="liker" style="float: right;" src="https://sammy-ck.github.io/phase-1-project/images/like.png">
+<img class="liker" style="float: right;" src="https://Chiscobyte.github.io/phase-1-project/images/like.png">
 <small style="float: right;">Add collection </small>
 <input id="remover" type="button" style="float: right;" class="noDisplay" value="REMOVE">
 `
@@ -194,7 +194,7 @@ function breweryToPage(brewery, currentUl) {
 
         breweryLis.forEach(breweryLi => {
             if (breweryLi.querySelector('i').innerText === liBrewery.querySelector('i').innerText) {
-                breweryLi.querySelector('img').src = "https://sammy-ck.github.io/phase-1-project/images/like.png"
+                breweryLi.querySelector('img').src = "https://Chiscobyte.github.io/phase-1-project/images/like.png"
             } else {
 
             }
@@ -223,28 +223,28 @@ function breweryToPage(brewery, currentUl) {
 
     //Adds and removes likes
     liker.addEventListener('click', () => {
-        if (liker.src === "https://sammy-ck.github.io/phase-1-project/images/like.png") {
-            liker.src = "https://sammy-ck.github.io/phase-1-project/images/liked.png"
+        if (liker.src === "https://Chiscobyte.github.io/phase-1-project/images/like.png") {
+            liker.src = "https://Chiscobyte.github.io/phase-1-project/images/liked.png"
             breweryToPage(brewery, favUl)
 
             let breweryLis = brewerUl.querySelectorAll('li')
 
             breweryLis.forEach(breweryLi => {
                 if (breweryLi.querySelector('i').innerText === liBrewery.querySelector('i').innerText) {
-                    breweryLi.querySelector('img').src = "https://sammy-ck.github.io/phase-1-project/images/liked.png"
+                    breweryLi.querySelector('img').src = "https://Chiscobyte.github.io/phase-1-project/images/liked.png"
                 } else {
 
                 }
             })
 
         } else {
-            liker.src = "https://sammy-ck.github.io/phase-1-project/images/like.png"
+            liker.src = "https://Chiscobyte.github.io/phase-1-project/images/like.png"
 
             let breweryLis = brewerUl.querySelectorAll('li')
 
             breweryLis.forEach(breweryLi => {
                 if (breweryLi.querySelector('i').innerText === liBrewery.querySelector('i').innerText) {
-                    breweryLi.querySelector('img').src = "https://sammy-ck.github.io/phase-1-project/images/like.png"
+                    breweryLi.querySelector('img').src = "https://Chiscobyte.github.io/phase-1-project/images/like.png"
                 } else {
 
                 }
